@@ -40,3 +40,4 @@ temp/
 *.key
 id_rsa*
 known_hosts
+external/SSHRD_Scripts/sshramdisk/

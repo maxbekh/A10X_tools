@@ -49,10 +49,29 @@ General flow for most of them:
 
 ## TODO
 
-- add other repos link (gaster, palera1n, Orangera1n, SSHRD etc)
+- add other repos link (gaster, palera1n, diag, SSHRD etc)
 - add credits
 - add dependencies 
 
 ## Disclaimer
 
 These tools are published for research and educational purposes only. They are meant to be used on devices you own or have explicit permission to work on. Bypassing activation or modifying firmware on a device you don't own is illegal in most countries and I don't condone it. I'm not responsible for bricked devices, lost data, or any legal trouble you get yourself into. If you don't know what you're doing, don't run this.
+
+## Credits
+
+- [palera1n](https://github.com/palera1n/palera1n) - GPL-3.0. Binary-only copy used here.
+- [SSHRD_Script](https://github.com/verygenericname/SSHRD_Script) - BSD-3-Clause. Full copy, including the prebuilt Darwin/Linux binaries and ramdisk files.
+- [gaster](https://github.com/0x7ff/gaster) - checkm8 pwning utility by 0x7ff.
+- [diag_script](https://github.com/orangera1n/diag_script) - for reference and some of the ramdisk/diag material.
+- [diag_scripts](https://github.com/verygenericname/diag_scripts) - diag bootchain files.
+- [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - device communication.
+- [libirecovery](https://github.com/libimobiledevice/libirecovery) - iBoot/iBSS USB communication.
+- [libusb](https://libusb.info/), [libplist](https://github.com/libimobiledevice/libplist), [OpenSSL](https://www.openssl.org/) - build and runtime dependencies.
+
+If you're one of the authors and want a link or credit changed, open an issue.
+
+## Licenses
+
+Anything imported from an upstream repo keeps its original license. 
+
+My own scripts in `scripts/` are MIT unless stated otherwise.
