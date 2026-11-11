@@ -19,6 +19,14 @@ Only tested on iPad Pro 10,5 cellular (iPad7,4, A1709 j208ap)
 - python3
 - ssh client (for ramdisk access)
 
+## Dependencies
+
+Install the required libraries with Homebrew:
+
+    brew install python3 libimobiledevice libirecovery libusb libplist openssl pkg-config
+
+You'll also need Xcode Command Line Tools (`xcode-select --install`) for the compiler.
+
 ## Usage
 
 Each script is standalone. Read the header comment in each file before running.
